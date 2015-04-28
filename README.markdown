@@ -41,7 +41,7 @@ Note how the inner most handler receives a `HTTPRequest` and in response calls t
 
 ## Known Issues
 
- * Better documentaiton. ;)
+ * Better documentation. ;)
  * No support for [HTTP persistent connection](https://en.wikipedia.org/wiki/HTTP_persistent_connection). This could be added.
  * Clean up GCD queue usage. Currently this is a bit confusing and not streamlined.
  * Better shutdown support. It may be good to be able to wait for the server to have shut down, e.g. by exposing a `dispatch_group_t`.
